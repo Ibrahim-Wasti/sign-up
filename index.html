@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up form</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="content">
+        <div class="image">
+            <div class="banner">
+                <img src="./odin-lined.png" alt="Odin Image">
+                
+            </div>
+        </div>
+        <div class="text_section">
+            <form>
+                <div class="inputs_block">
+                    <div class="inputs">
+                        <h2>Please fill in the information below.</h2>
+                        <div>
+                            <div>
+                                <label for="first_name">*FIRST NAME</label>
+                                <input type="text" name="first_name" id="first_name" placeholder="John" required>
+                                <label for="last_name">*LAST NAME</label>
+                                <input type="text" name="last_name" id="last_name" placeholder="Smith" required>
+                            </div>
+                            <div>
+                                <label for="user_email">*EMAIL</label>
+                                <input type="email" name="user_email" id="user_email" placeholder="youremail@example.com" required>
+                                <label for="phone_number">PHONE NUMBER</label>
+                                <input type="tel" name="user_phone" id="phone_number" placeholder="123-456-7890">
+                            </div>
+                            <div>
+                                <label for="password">*PASSWORD</label>
+                                <input type="password" name="user_pass" id="password" required>
+                                <label for="confirm_password">* CONFIRM PASSWORD</label>
+                                <input type="password" name="user_pass_confirm" id="confirm_password" required>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button type="submit" id="create_account">Create Account</button>
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>
